@@ -10,6 +10,8 @@ public class ExceptionExample {
             getId(name);
         } catch (DBException e) {
             System.err.println(e.getMessage());
+        } finally {
+            System.out.println("setIdFromName done");
         }
     }
 
