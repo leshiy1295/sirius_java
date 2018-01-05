@@ -1,5 +1,6 @@
 package edu.sirius.examples.java;
 
+import codegen.CodeGenerationExample;
 import exceptions.ExceptionExample;
 import json.JSONExample;
 import serialization.SerializationExample;
@@ -16,6 +17,7 @@ public class App
         ExceptionExample.run();
         StreamExample.run();
         SerializationExample.run();
+        CodeGenerationExample.run();
         JSONExample.run();
     }
 }
