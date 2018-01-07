@@ -31,5 +31,6 @@ public class ThreadsExample {
         (new CorrectIncrementExample()).example();
 //        (new DeadLockExample()).example();
         SeriesRunExample.example();
+        ThreadLocalExample.example();
     }
 }
